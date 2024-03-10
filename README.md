@@ -2,7 +2,7 @@
 
 1: npx prisma migrate dev
 
-- generate for migrate
+- generate and migrate.
 
 2: npx prisma studio
 
@@ -19,7 +19,7 @@
 
 4: npx prisma generate
 
-- If not generate migrate . try this one.
+- If not generate? try this one.
 
 5: npx prisma validate
 
@@ -36,3 +36,11 @@
 8: npx prisma db pull --print
 
 - for checking it is schema properly created?
+
+9: npx prisma db push
+
+- without generate push into database.
+
+10: npx prisma
+
+- for show all command.
